@@ -1,0 +1,165 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+/* Header  */
+
+/* Nav */
+
+#nav, footer{
+  background-color: #05445e;
+  color: white;
+}
+
+#title{
+  margin-left: 1%;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo{
+  margin-left: 2%;
+  height: 50px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar-nav {
+  text-align: right; 
+  margin-left: auto;
+}
+
+
+
+/* Main */
+
+main {
+  padding: 20px;
+}
+
+.section, .visual-map {
+  background: #e8f2f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#student-search h2, #admin-dashboard h2{
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#student-search{
+  background-image: url("./src/assets/images/fSeat.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #d4f1f4;
+}
+
+#search-form, .seat-details{
+  margin-left: 2%;
+}
+
+form input, form button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ebe1e1;
+  border-radius: 5px;
+}
+form button {
+  background-color: #05445e;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #189ab4;
+}
+
+#regNumber{
+  width: 250px;
+}
+
+
+/* Visual Map */
+
+#visualMap{
+  font-size: larger;
+  text-align: center;
+}
+
+.visual-map{
+  border: black solid 2px;
+}
+
+
+
+
+
+/* Admin-dashboard  */
+
+.seating-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.seating-table th, .seating-table td {
+  padding: 10px;
+  border: 1px solid #0b0202;
+  text-align: left;
+}
+
+#upload{
+  background-color: #05445e;
+  color: white; 
+  border-radius: 10px;
+  width: 100px;
+}
+
+#update:hover {
+  background-color: #189ab4;
+}
+
+#stageImg{
+  width: 50%;
+  margin-left: 25%;
+}
+
+#admin-dashboard{
+  line-height: 1.8;
+}
+
+#admin-btn{
+  background-color: #05445e;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+  border-color: #05445e;
+  width: 30%;
+}
+
+#admin-btn:hover {
+  background-color: #189ab4;
+}
+
+/* Footer  */
+
+footer{
+  text-align: center;
+  height: 35  px;
+  align-content: center;
+}
+
+
+
